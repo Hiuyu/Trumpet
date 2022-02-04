@@ -1,4 +1,5 @@
 # Trumpet: an R package for transcriptome-guided quality assessment of m6A-seq data
+## this is not the original one. just a personal modification
 Motivation: Methylated RNA immunoprecipitation sequencing (m6A-seq or MeRIP-seq) has been extensively used for profiling transcriptome-wide distribution of RNA N6-MethylAdenosine methylation. However, due to the intrinsic properties of RNA molecule and the intricate procedures of this technique, m6A-seq data often suffers from various flaws. A convenient and comprehensive tool is solely needed to assess the quality of m6A-seq data to ensure it is suitable for subsequent analysis.
 
 Results: From a technical perspective, m6A-seq can be considered as a marriage of ChIP-seq and RNA-seq; hence, by effectively combing the data quality assessment metrics of the two techniques, we developed the Trumpet R package for evaluation of m6A-seq data quality. Trumpet package takes the aligned BAM files from m6A-seq data together with transcriptome information as inputs to generate a quality assessment report in HTML format.
