@@ -19,7 +19,7 @@
   if (suppressWarnings(!is.na(TXDB))) {
     txdb <- loadDb(TXDB)
   }
-  gc <- makeGuitarCoordsFromTxDb(txdb, noBins = 20)
+  gc <- makeGuitarTxdb(txdb, noBins = 20)
   gc_info <- mcols(gc)
   if ((length(contrast_IP_BAM) != 0) & ((length(contrast_Input_BAM) != 
                                          0))) {
